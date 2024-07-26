@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wine-model"
+version = "0.1.0"
+description = "Este é um pacote python para o set de wine"
+authors = ["afonsolelis <afonsolelis@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.37.0"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+scikit-learn = "^1.0.2"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
